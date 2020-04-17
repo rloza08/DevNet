@@ -10,5 +10,3 @@ intPattern = (
 allCustomerSubInterfaces = re.search(intPattern, deviceConfig)
 
 print(allCustomerSubInterfaces.group(1))
-
-
